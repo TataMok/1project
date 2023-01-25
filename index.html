@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Singing bowls</title>
+    <style>
+        body {
+            background: #defcf9;
+        }
+
+        h1 {
+            color: black;
+            text-align: center;
+
+        }
+
+        button {
+            border: 1px solid #5e87b8;
+            border-radius: 30px;
+            margin: 20px auto;
+            display: block;
+            color: #5e87b8;
+            font-size: 16px;
+            background: transparent;
+            padding: 15px 20px;
+            transition: all 200ms ease;
+        }
+
+        button:hover {
+            color: white;
+            background: #5e87b8;
+        }
+
+        img {
+            background-image: none;
+            margin: 0 auto;
+            display: block;
+            width: 40%;
+
+        }
+
+        .conteiner {
+            text-align: center;
+        }
+
+        .footer {
+            text-align: center;
+
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 20px;
+            font-family: Arial, Helvetica, sans-serif, monospace;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>
+            I love Singing bowls!
+        </h1>
+
+        <img src="https://ethnomir.ru/upload/medialibrary/ce4/bowl.jpg" width="300" />
+
+
+        <p>
+            <strong> Is a Tibetan Singing Bowl?</strong>
+            A Tibetan singing bowl is a type of bell that vibrates and produces a rich, deep tone when played. Also
+            known as
+            singing
+            bowls or Himalayan bowls, Tibetan singing bowls are said to promote relaxation and offer powerful healing
+            properties.
+
+
+            Buddhist monks have long used Tibetan singing bowls in meditation practice. In addition, some wellness
+            practitioners
+            (including music therapists, massage therapists, and yoga therapists) use Tibetan singing bowls during
+            treatment.
+
+            This article discusses how Tibetan singing bowls are used and their purported benefits. It also covers what
+            you
+            should
+            consider before you try using this type of treatment.
+        </p>
+        <a href="https://en.wikipedia.org/wiki/Standing_bell " target="_blank">More information</a>
+        <button>
+            Buy it now!
+        </button>
+        <p class="footer">
+            This page was built by
+            <a href="https://www.linkedin.com/in/natalia-mokijevski-b862321a1/" tarhet="_blank">
+                Natalia Mokijevski
+            </a>
+        </p>
+    </div>
+    <script>
+        function buy() {
+            let name = prompt("What is your name?");
+            let email = prompt("What is your email address?");
+            let heading = document.querySelector("h1");
+
+            alert("Thank you" + name + "! Will be in touch by email !");
+        }
+        let buyButton = document.querySelector("button");
+
+        buyButton.addEventListener("click", buy);
+    </script>
+</body>
+
+</html>
